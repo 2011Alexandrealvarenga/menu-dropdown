@@ -1,0 +1,44 @@
+body{
+  background: tomato;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+
+}
+.logo h2{
+  color: #fff; 
+}
+.menu-button{
+  background-color: transparent;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.right-menu{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background: #f9f9f9;
+  min-width: 158px;
+  z-index: 1;
+}
+.dropdown-menu a:hover{
+  background: #000;
+  color: #fff;   
+}
+.right-menu:hover .dropdown-menu{
+  display: block;
+}
+.right-menu:hover .menu-button{
+  background: transparent;
+}
